@@ -1,0 +1,282 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a;
+    color: #f3e2c7;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #3a3d42, #2d2f33);
+    color: #fdd835;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #f57c00;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-family: 'Papyrus', cursive;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px #000;
+}
+
+header p {
+    font-style: italic;
+}
+
+nav {
+    background-color: #3c403d;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fdd835;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6f00;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(60, 64, 61, 0.9);
+    border: 2px solid #2e2f31;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-family: 'Papyrus', cursive;
+    color: #fdd835;
+    text-shadow: 2px 2px 4px #000;
+    border-bottom: 3px solid #f57c00;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul img {
+    max-width: 400px;
+    border-radius: 10px;
+    border: 3px solid #2d2f33;
+    margin: 5px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+section#historia p,
+section#misterios p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+footer h3 {
+    color: #fdd835;
+    margin-top: 20px;
+    font-family: 'Papyrus', cursive;
+    text-shadow: 2px 2px 4px #000;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #f3e2c7;
+}
+
+footer .autor-img {
+    display: block;
+    margin: 15px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #3a3d42;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+footer h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fdd835;
+}
+
+footer nav a {
+    color: #fdd835;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #ff6f00;
+}
+
+
+section#misterios {
+    background: rgba(60, 64, 61, 0.9);
+    border: 2px solid #2d2f31;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section#misterios article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+section#misterios h3 {
+    color: #fdd835;
+    text-shadow: 2px 2px 4px #000;
+}
+
+article img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    border: 5px solid #3a3d42;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(255, 215, 0, 0.9);
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+section#informacion-personal {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(60, 64, 61, 0.9);
+    border: 2px solid #2d2f31;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+    color: #f3e2c7;
+    background: rgba(30, 34, 31, 0.9);
+    border: 1px solid #444;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #555;
+}
+
+table th {
+    background-color: #3a3d42;
+    color: #fdd835;
+    font-family: 'Papyrus', cursive;
+    text-shadow: 1px 1px 3px #000;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(50, 54, 51, 0.9);
+}
+
+table tr:hover {
+    background-color: rgba(60, 64, 61, 0.9);
+    color: #ff6f00;
+}
+
+section#contacto {
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(60, 64, 61, 0.9);
+    border: 2px solid #2d2f31;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    color: #f3e2c7;
+}
+
+section#contacto h2 {
+    color: #fdd835;
+    text-shadow: 2px 2px 4px #000;
+}
+
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section#contacto label {
+    font-size: 1rem;
+}
+
+section#contacto input,
+section#contacto select,
+section#contacto textarea {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background: #f3e2c7;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+section#contacto input:focus,
+section#contacto select:focus,
+section#contacto textarea:focus {
+    border-color: #fdd835;
+}
+
+section#contacto button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #fdd835;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section#contacto button:hover {
+    background-color: #ff6f00;
+    color: #fff;
+}
